@@ -17,8 +17,11 @@ Now we can edit `install.sh` to reflect the locations of these 3 files.  After t
 ...
 
 Nice to have once you're up and running:
-* SSH keys and `~/.ssh/config` entry like this:
-```Host ubuntu
+* SSH keys - copy your `~/.ssh/id_rsa.pub` file to your new vm and append it to `~/.ssh/authorized_keys` - permissions matter on this file, they should be `-rw-------` (read and write for owner only)
+
+* Edit `~/.ssh/config` on your macbook and add an entry like this:
+```
+Host ubuntu
      User username
      HostName 127.0.0.1
      Port 20022
