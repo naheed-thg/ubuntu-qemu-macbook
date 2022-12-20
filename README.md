@@ -3,7 +3,7 @@ Scripts for running a linux vm on an M1 macbook
 
 Dependencies:
 * On your macbook:  ```$ brew install qemu telnet```
-* Download an ISO installer image for Ubuntu Server for Arm here:  https://ubuntu.com/download/server/arm
+* Download an ISO installer image for Ubuntu Server for Arm here:  https://ubuntu.com/download/server/arm - get the LTS version 22.04.1
 
 Getting started:
 * Verify that you can find the ubuntu installer image `ubuntu-22.04.1-live-server-arm64.iso`
