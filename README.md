@@ -10,4 +10,6 @@ Getting started:
 * Verify that when you installed qemu you got a firmware image called `edk2-aarch64-code.fd`.  The default homebrew location will be `/opt/homebrew/share/qemu/edk2-aarch64-code.fd`
 
 Creating a QCOW image:
-* You need to create an empty virtual disk image on which to install ubuntu.  I recommend creating a 20G qcow-format image like this:  `$ qemu-img create -f qcow2 freebsd.qcow2 20G`
+* You need to create an empty virtual disk image on which to install ubuntu.  I recommend creating a 20G qcow-format image like this:  `$ qemu-img create -f qcow2 ubuntu.qcow2 20G`
+
+Now we can edit `install.sh` to reflect the locations of these 3 files.
