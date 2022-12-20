@@ -17,7 +17,7 @@ Now we can edit `install.sh` to reflect the locations of these 3 files.  After t
 ...
 
 Nice to have once you're up and running:
-* SSH keys - copy your `~/.ssh/id_rsa.pub` file to your new vm `scp -P20022 id_rsa.pub  pgw@localhost:~/` 
+* SSH keys - copy your `~/.ssh/id_rsa.pub` file to your new vm `scp -P20022 id_rsa.pub  username@localhost:~/` 
 * Append id_rsa.pub to `~/.ssh/authorized_keys` 
 * permissions matter on this file, they should be read and write for owner only (`-rw-------`)
 
@@ -32,5 +32,5 @@ Host ubuntu
 * sudo without password - edit `/etc/sudoers` and add a line like: `myusername ALL=(ALL) NOPASSWD: ALL`
 * Update with `sudo apt update` and `sudo apt upgrade`
 * Install stuff with `sudo apt install ...`
-* 
+
  
