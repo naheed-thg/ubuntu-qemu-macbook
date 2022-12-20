@@ -12,4 +12,5 @@ Getting started:
 Creating a QCOW image:
 * You need to create an empty virtual disk image on which to install ubuntu.  I recommend creating a 20G qcow-format image like this:  `$ qemu-img create -f qcow2 ubuntu.qcow2 20G`
 
-Now we can edit `install.sh` to reflect the locations of these 3 files.
+Now we can edit `install.sh` to reflect the locations of these 3 files.  After that, we can run `install.sh`.  In another terminal, `telnet localhost 4444` and follow the instructions.
+
