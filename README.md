@@ -18,10 +18,10 @@ Now we can edit `install.sh` to reflect the locations of these 3 files.  After t
 
 Nice to have once you're up and running:
 * SSH keys and `~/.ssh/config` entry like this:
-* ```Host ubuntu
+ ```Host ubuntu
      User username
      HostName 127.0.0.1
      Port 20022
      ```
 * sudo without password - edit `/etc/sudoers` and add a line like: `myusername ALL=(ALL) NOPASSWD: ALL`
-* 
+ 
