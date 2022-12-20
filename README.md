@@ -16,6 +16,10 @@ Now we can edit `install.sh` to reflect the locations of these 3 files.  After t
 
 ...
 
+(to do: Installation advice here)
+
+...
+
 Nice to have once you're up and running:
 * SSH keys - copy your `~/.ssh/id_rsa.pub` file to your new vm `scp -P20022 id_rsa.pub  username@localhost:~/` 
 * Append id_rsa.pub to `~/.ssh/authorized_keys` 
