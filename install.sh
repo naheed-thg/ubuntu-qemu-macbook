@@ -1,11 +1,11 @@
-IMG = /path/to/your/ubuntu-22.04.1-live-server-arm64.iso
+# IMG = /path/to/your/ubuntu-22.04.1-live-server-arm64.iso
 
-#IMG=/Users/wilsonp/ubuntu/ubuntu-22.04.1-live-server-arm64.iso
+IMG=/Users/naheed.tayab36/vms/ubuntu-24.04.1-live-server-arm64.iso
 
 BIOS=/opt/homebrew/share/qemu/edk2-aarch64-code.fd
 
 
-#qemu-img create -f qcow2 freebsd.qcow2 20G
+qemu-img create -f qcow2 ubuntu.qcow2 20G
 
 qemu-system-aarch64 -m 8G -cpu cortex-a57 -M virt  \
 	-smp 2 \
